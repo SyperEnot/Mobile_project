@@ -60,33 +60,33 @@ gradle clean remote_test -DdeviceHost=remote
 
 ```
 
-## <img src="media/jenkins.svg" title="Allure TestOps" width="4%"/> Созданный проект в [Jenkins](https://jenkins.autotests.cloud/job/hw23_mobileTest/)
+## <img src="media/jenkins.svg" title="Allure TestOps" width="4%"/> Созданный проект в [Jenkins](https://jenkins.autotests.cloud/job/Mobile_project/)
 <p align="center">
-<img title="allure-report" src="media/jenkinsPrj.png">
+<img title="allure-report" src="media/jenkins_project.png">
 </p>
 
-## <img src="media/allure.svg" title="Allure TestOps" width="4%"/> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/hw23_mobileTest/5/allure/)
+## <img src="media/allure.svg" title="Allure TestOps" width="4%"/> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/Mobile_project/allure/#suites/61d88eb124e2677647c03f9a9e364f22)
 В отчете отображены пройденные автотесты. На приложенном изображении открыт тест кейс, отображены его шаги, прикреплены логи, скрины и видео
 <p align="center">
 <img title="Allure Overview" src="media/allure-report.png">
 </p>
 
-## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/35268)
+## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/43707)
 
 Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
 Результат выполнения автотестов отображается в <code>Allure TestOps</code>
 На Dashboard в <code>Allure TestOps</code> отображена статистика пройденных тестов.
 
 <p align="center">
-<img title="Allure TestOps DashBoard" src="media/allureTestOps.png">
+<img title="Allure TestOps DashBoard" src="media/allure_launch.png">
 </p>
 
-## <img src="media/Jira.svg" title="Allure TestOps" width="4%"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1094)
+## <img src="media/Jira.svg" title="Allure TestOps" width="4%"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1378)
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается информация, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 
 <p align="center">
-<img title="Jira Task" src="media/jiraTask.png">
+<img title="Jira Task" src="media/jira_tasks.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/telegram.svg"> Уведомления в Telegram с использованием бота
@@ -94,7 +94,7 @@ gradle clean remote_test -DdeviceHost=remote
 После завершения сборки, бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
 <p align="center">
-<img width="40%"  title="Telegram Notifications" src="media/telegramBot.jpg">
+<img width="40%"  title="Telegram Notifications" src="media/telegram_result.png">
 </p>
 
 ## Видео примера запуска тестов в Selenoid
